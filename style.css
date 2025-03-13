@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: lightblue;
+}
+
+header {
+    background-color: lightgreen;
+    color: blue;
+    padding: 15px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+nav {
+    text-align: left;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    left: 0;
+    top: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: black;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.container {
+    margin-top: 30px; /* Added gap between header and form */
+}
+
+form {
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+input[type="datetime-local"], input[type="number"] {
+    text-align: center;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
